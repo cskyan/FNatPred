@@ -41,8 +41,6 @@ To train Fmodel, two files are required as input including fungal features (e.g.
    
 # Classfication
 Then you can run the```. py``` files under each task
-# Citation
-> •	Narunsky-Haziza, Sepich-Poore, Livyatan et al. 2022. Cell
 # Contact
 All problems please contact   
 Dongmei He  Email：hedongmei@hainanu.edu.cn  

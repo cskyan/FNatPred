@@ -165,7 +165,7 @@ results_cv_df = pd.DataFrame(results_cv)
 print(results_cv)
 
 
-
+print("##--------------------------fmodel----------------------------------")
 # X_train1, X_test1, y_train1, y_test1 = train_test_split(X_train, train_data_y_encoded_series, test_size=0.5,
 #                                                     stratify=train_data_y_encoded_series,
 #                                                     random_state=42)
@@ -176,7 +176,7 @@ X_train1 = X_train[:split_index]
 X_test1 = X_train[split_index:]
 y_train1 = train_data_y_encoded_series[:split_index]
 y_test1 = train_data_y_encoded_series[split_index:]
-
+y_test1.to_csv('breast_test1.csv')
 # Initialize the table
 oof_lgb = np.zeros(len(X_train1))
 oof_xgb = np.zeros(len(X_train1))
@@ -220,7 +220,9 @@ test_output_df['rf'] = test_output_df['rf'] / 5
 test_output_df['svm'] = test_output_df['svm'] / 5
 
 print(test_output_df)
-
+df = pd.DataFrame({'Predicted_Label': test_output_df, 'True_Label': y_test1})
+df.to_csv('output_predictions.csv')
+test_output_df.to_csv('test_output_df-breast.csv')
 oof_df = pd.DataFrame({'lgb': oof_lgb, 'xgb': oof_xgb, 'cat': oof_cat, 'rf': oof_rf, 'svm': oof_svm})
 
 # the second layer

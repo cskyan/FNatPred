@@ -1,0 +1,56 @@
+Model,auroc,aupr,diseaseType,datasetName
+XGBoost,0.5,0.09333333333333334,Breast Invasive Carcinoma ,UNC
+CatBoost,0.5,0.09333333333333334,Breast Invasive Carcinoma ,UNC
+LightGBM[1],0.5,0.09333333333333334,Breast Invasive Carcinoma ,UNC
+Random Forest[2],0.49019607843137253,0.09333333333333334,Breast Invasive Carcinoma ,UNC
+Fmodel,0.49029126213592233,0.08849557522123894,Breast Invasive Carcinoma ,UNC
+XGBoost,0.615909090909091,0.26190476190476186,Colon Adenocarcinoma ,UNC
+CatBoost,0.5,0.12698412698412698,Colon Adenocarcinoma ,UNC
+LightGBM[1],0.5,0.12698412698412698,Colon Adenocarcinoma ,UNC
+Random Forest[2],0.6875,0.45436507936507936,Colon Adenocarcinoma ,UNC
+Fmodel,0.625,0.34375,Colon Adenocarcinoma ,UNC
+XGBoost,0.7642857142857143,0.5552631578947368,Kidney Chromophobe ,UNC
+CatBoost,0.5,0.2631578947368421,Kidney Chromophobe ,UNC
+LightGBM[1],0.5642857142857143,0.31052631578947365,Kidney Chromophobe ,UNC
+Random Forest[2],0.5,0.2631578947368421,Kidney Chromophobe ,UNC
+Fmodel,0.5476190476190477,0.3222222222222222,Kidney Chromophobe ,UNC
+XGBoost,0.4919786096256685,0.065,Kidney Renal Clear Cell Carcinoma ,UNC
+CatBoost,0.5,0.065,Kidney Renal Clear Cell Carcinoma ,UNC
+LightGBM[1],0.5,0.065,Kidney Renal Clear Cell Carcinoma ,UNC
+Random Forest[2],0.49732620320855614,0.065,Kidney Renal Clear Cell Carcinoma ,UNC
+Fmodel,0.5714285714285714,0.20285714285714285,Kidney Renal Clear Cell Carcinoma ,UNC
+XGBoost,0.4727272727272727,0.09836065573770492,Kidney Renal Papillary Cell Carcinoma ,UNC
+CatBoost,0.5,0.09836065573770492,Kidney Renal Papillary Cell Carcinoma ,UNC
+LightGBM[1],0.5,0.09836065573770492,Kidney Renal Papillary Cell Carcinoma ,UNC
+Random Forest[2],0.5,0.09836065573770492,Kidney Renal Papillary Cell Carcinoma ,UNC
+Fmodel,0.5,0.0967741935483871,Kidney Renal Papillary Cell Carcinoma ,UNC
+XGBoost,0.5838709677419355,0.21111111111111114,Liver Hepatocellular Carcinoma ,UNC
+CatBoost,0.5,0.1388888888888889,Liver Hepatocellular Carcinoma ,UNC
+LightGBM[1],0.5,0.1388888888888889,Liver Hepatocellular Carcinoma ,UNC
+Random Forest[2],0.49193548387096775,0.1388888888888889,Liver Hepatocellular Carcinoma ,UNC
+Fmodel,0.467741935483871,0.1388888888888889,Liver Hepatocellular Carcinoma ,UNC
+XGBoost,0.5,0.10526315789473684,Lung Adenocarcinoma ,UNC
+CatBoost,0.5,0.10526315789473684,Lung Adenocarcinoma ,UNC
+LightGBM[1],0.5,0.10526315789473684,Lung Adenocarcinoma ,UNC
+Random Forest[2],0.5416666666666666,0.17982456140350878,Lung Adenocarcinoma ,UNC
+Fmodel,0.5833333333333334,0.2543859649122807,Lung Adenocarcinoma ,UNC
+XGBoost,0.4895833333333333,0.09433962264150944,Lung Squamous Cell Carcinoma ,UNC
+CatBoost,0.5,0.09433962264150944,Lung Squamous Cell Carcinoma ,UNC
+LightGBM[1],0.5,0.09433962264150944,Lung Squamous Cell Carcinoma ,UNC
+Random Forest[2],0.5,0.09433962264150944,Lung Squamous Cell Carcinoma ,UNC
+Fmodel,0.4895833333333333,0.09433962264150944,Lung Squamous Cell Carcinoma ,UNC
+XGBoost,0.4946236559139785,0.0970873786407767,Prostate Adenocarcinoma ,UNC
+CatBoost,0.5,0.0970873786407767,Prostate Adenocarcinoma ,UNC
+LightGBM[1],0.5,0.0970873786407767,Prostate Adenocarcinoma ,UNC
+Random Forest[2],0.4838709677419355,0.0970873786407767,Prostate Adenocarcinoma ,UNC
+Fmodel,0.48936170212765956,0.09615384615384616,Prostate Adenocarcinoma ,UNC
+XGBoost,0.5266666666666666,0.11904761904761903,Thyroid Carcinoma ,UNC
+CatBoost,0.5,0.10714285714285714,Thyroid Carcinoma ,UNC
+LightGBM[1],0.5,0.10714285714285714,Thyroid Carcinoma ,UNC
+Random Forest[2],0.5,0.10714285714285714,Thyroid Carcinoma ,UNC
+Fmodel,0.5,0.10714285714285714,Thyroid Carcinoma ,UNC
+XGBoost,0.5142857142857142,0.1285714285714286,Uterine Corpus Endometrial Carcinoma ,UNC
+CatBoost,0.5,0.125,Uterine Corpus Endometrial Carcinoma ,UNC
+LightGBM[1],0.5,0.125,Uterine Corpus Endometrial Carcinoma ,UNC
+Random Forest[2],0.5,0.125,Uterine Corpus Endometrial Carcinoma ,UNC
+Fmodel,0.4722222222222222,0.1,Uterine Corpus Endometrial Carcinoma ,UNC

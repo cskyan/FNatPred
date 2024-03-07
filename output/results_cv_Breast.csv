@@ -1,0 +1,26 @@
+model,auroc,aupr,rep,diseaseType,sampleType
+CatBoost,0.5,0.641025641,Fold1,breast,tumor vs nat
+CatBoost,0.5,0.641025641,Fold2,breast,tumor vs nat
+CatBoost,0.5,0.684210526,Fold3,breast,tumor vs nat
+CatBoost,0.5,0.736842105,Fold4,breast,tumor vs nat
+CatBoost,0.5,0.526315789,Fold5,breast,tumor vs nat
+Fmodel,0.583333333,0.643137255,Fold1,breast,tumor vs nat
+Fmodel,0.421428571,0.70821284,Fold2,breast,tumor vs nat
+Fmodel,0.403409091,0.381109023,Fold3,breast,tumor vs nat
+Fmodel,0.673076923,0.770098323,Fold4,breast,tumor vs nat
+Fmodel,0.512820513,0.689816257,Fold5,breast,tumor vs nat
+Gradient Boosting,0.5,0.641025641,Fold1,breast,tumor vs nat
+Gradient Boosting,0.5,0.641025641,Fold2,breast,tumor vs nat
+Gradient Boosting,0.5,0.684210526,Fold3,breast,tumor vs nat
+Gradient Boosting,0.5,0.736842105,Fold4,breast,tumor vs nat
+Gradient Boosting,0.5,0.526315789,Fold5,breast,tumor vs nat
+Random Forest,0.5,0.641025641,Fold1,breast,tumor vs nat
+Random Forest,0.5,0.641025641,Fold2,breast,tumor vs nat
+Random Forest,0.5,0.684210526,Fold3,breast,tumor vs nat
+Random Forest,0.5,0.736842105,Fold4,breast,tumor vs nat
+Random Forest,0.5,0.526315789,Fold5,breast,tumor vs nat
+XGBoost,0.415714286,0.605096154,Fold1,breast,tumor vs nat
+XGBoost,0.587142857,0.68392674,Fold2,breast,tumor vs nat
+XGBoost,0.487179487,0.678725349,Fold3,breast,tumor vs nat
+XGBoost,0.442857143,0.715498423,Fold4,breast,tumor vs nat
+XGBoost,0.380555556,0.475589837,Fold5,breast,tumor vs nat

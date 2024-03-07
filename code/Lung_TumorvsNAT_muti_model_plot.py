@@ -201,6 +201,9 @@ print(classification_report(y_data_test, stacking_test_pred))
 print("fmodel AUC Score:", auc_values_fmodel)
 print("fmodel pr Score:", pr_value_fmodel)
 
+# result_df_RF = pd.concat([x_data_test.reset_index(drop=True), pd.Series(y_test1, name='predY')], axis=1)
+# result_df_RF.to_csv('two-level-lung.csv')
+
 precision_fmodel, recall_fmodel, _ = precision_recall_curve(y_data_test, stacking_test_pred)
 plt.plot(recall_fmodel, precision_fmodel, lw=2, color='m', label='Fmodel (AUPR={:.2f})'.format(pr_value_fmodel))
 

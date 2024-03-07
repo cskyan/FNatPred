@@ -127,8 +127,9 @@ for i, filename in enumerate(sorted(os.listdir(folder_path))):
         pr_value_rf = average_precision_score(y_test, rf_predict)
         print(classification_report(y_test, rf_predict))
         print("rf AUC Score:", auc_value_rf)
-        print("--------------------------fmodel------------------------------------")
 
+        ## create our model: Fmodel
+        print("--------------------------fmodel------------------------------------")
         X_train1, X_test1, y_train1, y_test1 = train_test_split(train_data_X, train_data_y_encoded_series, test_size=0.5,
                                                             stratify=train_data_y_encoded_series,
                                                             random_state=42)

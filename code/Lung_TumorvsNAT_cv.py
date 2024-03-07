@@ -18,8 +18,9 @@ from sklearn.svm import SVC
 from sklearn.metrics import roc_auc_score, average_precision_score, roc_curve, auc
 pd.options.display.max_columns = 200
 
+# Build relative paths
 script_dir = os.path.dirname("/home/hdm/Fmodel/code")
-# 构建文件的相对路径
+
 file_name = "data/TumorvsNAT/features__weizmannSpeciesShared_Nonzero/"
 file_path = os.path.join(script_dir, file_name)
 train_datax = pd.read_csv(file_path + '/lung -- tumor vs nat -- Features.csv')
@@ -77,7 +78,7 @@ param_grid = {
 lgb_reg = lgb.LGBMRegressor()
 grid_search = GridSearchCV(estimator=lgb_reg, param_grid=param_grid, cv=5)
 
-print("##--------------------------随机森林----------------------------------")
+print("##--------------------------rf----------------------------------")
 rf_reg = RandomForestClassifier(n_estimators=100, random_state=42)
 
 svm_reg = SVC(kernel='linear', C=1.0)
@@ -164,7 +165,7 @@ results_cv_df = pd.DataFrame(results_cv)
 print(results_cv)
 
 
-
+print("##--------------------------fmodel----------------------------------")
 X_train1, X_test1, y_train1, y_test1 = train_test_split(X_train, train_data_y_encoded_series, test_size=0.5,
                                                     stratify=train_data_y_encoded_series,
                                                     random_state=42)
@@ -218,7 +219,7 @@ test_output_df['rf'] = test_output_df['rf'] / 5
 test_output_df['svm'] = test_output_df['svm'] / 5
 
 print(test_output_df)
-
+#test_output_df.to_csv('test_output_df-lung.csv')
 oof_df = pd.DataFrame({'lgb': oof_lgb, 'xgb': oof_xgb, 'cat': oof_cat, 'rf': oof_rf, 'svm': oof_svm})
 
 
@@ -233,40 +234,7 @@ print(classification_report(y_data_test, stacking_test_pred))
 print("fmodel AUC Score:", auc_values_fmodel)
 print("fmodel pr Score:", pr_value_fmodel)
 
-# predictions_fmodel = rf_model.predict_proba(x_data_test)[:, 1]
-# fpr_fmodel, tpr_fmodel, _ = roc_curve(y_data_test, predictions_fmodel)
-# plt.plot(fpr_fmodel, tpr_fmodel, 'darkorange', label='fmodel = %0.2f' % auc_values_fmodel)
-#
-# model_names = ['xgb', 'catboost', 'gbm', 'rf', 'fmodel']
-# roc_values = [auc_value_xgb, auc_value_cat, auc_value_gbm, auc_value_rf, auc_values_fmodel]
-# pr_values = [pr_value_xgb, pr_value_cat, pr_value_gbm, pr_value_rf, pr_value_fmodel]
-#
-# roc_df = pd.DataFrame(columns=['Model', 'auroc', 'aupr'])
-# for model, roc, pr in zip(model_names, roc_values, pr_values):
-#     roc_df = roc_df.append({'Model': model, 'auroc': roc, 'aupr': pr}, ignore_index=True)
-# print(roc_df)
-#
-# output_folder = "output"
-# if not os.path.exists(output_folder):
-#     os.makedirs(output_folder)
-# print("Before saving roc_df to CSV")
-# # output_file = os.path.join(output_folder, 'roc_values_breast_0.9.csv')
-# # roc_df.to_csv(output_file, index=False)
-# # print("after saving roc_df to CSV")
-#
-# print("--------------Drawing roc curve--------------")
-# ###############################roc auc公共设置##################################
-# plt.title('Lung ROC Validation')
-# plt.legend(loc='lower right')
-# plt.plot([0, 1], [0, 1], 'r--')
-# plt.xlim([0, 1])
-# plt.ylim([0, 1])
-# plt.ylabel('True Positive Rate')
-# plt.xlabel('False Positive Rate')
-# plt.savefig('Lung_multi_models_roc_0.9.png')
-# plt.show()
-#
-#
+
 print("----rf+ 5-fold validation")
 for fold_num, (train_idx, valid_idx) in enumerate(kfold.split(test_output_df), 1):
 

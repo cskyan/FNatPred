@@ -21,7 +21,7 @@ pd.options.display.max_columns = 200
 
 script_dir = os.path.dirname("/home/hdm/Fmodel/code")
 
-
+## Import data
 # folder_path = 'data/TumorvsNormal/TumorvsNormal__df_psRep200_HiSeq_Fungi_DecontamV2_BCM_species'
 # folder_path = 'data/TumorvsNormal/TumorvsNormal__df_psRep200_HiSeq_Fungi_DecontamV2_Broad_WGS_species'
 # folder_path = 'data/TumorvsNormal/TumorvsNormal__df_psRep200_HiSeq_Fungi_DecontamV2_CMS_species'
@@ -135,7 +135,7 @@ for i, filename in enumerate(sorted(os.listdir(folder_path))):
         print(classification_report(y_test, rf_predict))
         print("rf AUC Score:", auc_value_rf)
 
-
+        ## create our model: Fmodel
         print("--------------------------Fmodel------------------------------------")
 
         X_train1, X_test1, y_train1, y_test1 = train_test_split(train_data_X,

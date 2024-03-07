@@ -1,0 +1,26 @@
+model,auroc,aupr,rep,diseaseType,sampleType
+CatBoost,0.5,0.62962963,Fold1,lung,tumor vs nat
+CatBoost,0.585164835,0.536680912,Fold2,lung,tumor vs nat
+CatBoost,0.571428571,0.587301587,Fold3,lung,tumor vs nat
+CatBoost,0.5625,0.44,Fold4,lung,tumor vs nat
+CatBoost,0.5875,0.432478632,Fold5,lung,tumor vs nat
+Fmodel,0.642857143,0.595238095,Fold1,lung,tumor vs nat
+Fmodel,0.541666667,0.452380952,Fold2,lung,tumor vs nat
+Fmodel,0.535714286,0.557299843,Fold3,lung,tumor vs nat
+Fmodel,0.547619048,0.487179487,Fold4,lung,tumor vs nat
+Fmodel,0.833333333,0.820512821,Fold5,lung,tumor vs nat
+Gradient Boosting,0.538235294,0.65087146,Fold1,lung,tumor vs nat
+Gradient Boosting,0.505494505,0.484330484,Fold2,lung,tumor vs nat
+Gradient Boosting,0.456043956,0.501587302,Fold3,lung,tumor vs nat
+Gradient Boosting,0.53125,0.423076923,Fold4,lung,tumor vs nat
+Gradient Boosting,0.49375,0.381684982,Fold5,lung,tumor vs nat
+Random Forest,0.5,0.62962963,Fold1,lung,tumor vs nat
+Random Forest,0.585164835,0.536680912,Fold2,lung,tumor vs nat
+Random Forest,0.571428571,0.587301587,Fold3,lung,tumor vs nat
+Random Forest,0.5625,0.44,Fold4,lung,tumor vs nat
+Random Forest,0.5875,0.432478632,Fold5,lung,tumor vs nat
+XGBoost,0.644117647,0.711747947,Fold1,lung,tumor vs nat
+XGBoost,0.519230769,0.491452991,Fold2,lung,tumor vs nat
+XGBoost,0.453296703,0.499244142,Fold3,lung,tumor vs nat
+XGBoost,0.627840909,0.483164983,Fold4,lung,tumor vs nat
+XGBoost,0.5375,0.40361991,Fold5,lung,tumor vs nat

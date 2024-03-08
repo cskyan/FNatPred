@@ -1,6 +1,14 @@
 # FNatPred: Ensemble Model Prediction Based on Fungal Microbiome
-FNatPred is a tool that can ensemble prediction information from multiple machine learning models on tumor fungal data to detecte NAT. It can also be used to predict other binary classification tasks, such as 
-individual cancer types versus each other, Stage I vs. Stage IV, Primary Tumor vs. Solid Tissue Normal.
+FNatPred is a tool that can ensemble prediction information from multiple machine learning models on tumor fungal data to detecte NAT. It can also be used to predict other binary classification tasks, such as individual cancer types versus each other, Stage I vs. Stage IV, Primary Tumor vs. Solid Tissue Normal.
+# Package requirement
+*   pandas\=\=1.3.5
+*   xgboost\=\=1.5.1
+*   lightgbm\=\=3.1.1
+*   catboost\=\=1.1.1
+*   matplotlib\=\=3.4.3
+*   scikit-learn\=\=1.0.2
+*   numpy\=\=1.21.5
+*   scipy==1.7.3
 # Installation
 On the top right of the main repository page, click the button followed by the button to download the entire repository. ```Code ▼ ``` ```Download ZIP```
 # Organization of files

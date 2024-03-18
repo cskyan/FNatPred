@@ -1,0 +1,16 @@
+Model,auroc,aupr,diseaseType,datasetName
+XGBoost,0.738,0.400359712,Esophageal Carcinoma ,CMS
+CatBoost,0.714285714,0.486125385,Esophageal Carcinoma ,CMS
+LightGBM ,0.5,0.100719424,Esophageal Carcinoma ,CMS
+Random Forest  ,0.678571429,0.421891059,Esophageal Carcinoma ,CMS
+FNatPred,0.706349206,0.378571429,Esophageal Carcinoma ,CMS
+XGBoost,0.738,0.400359712,Ovarian Serous Cystadenocarcinoma ,CMS
+CatBoost,0.714285714,0.486125385,Ovarian Serous Cystadenocarcinoma ,CMS
+LightGBM ,0.5,0.100719424,Ovarian Serous Cystadenocarcinoma ,CMS
+Random Forest  ,0.678571429,0.421891059,Ovarian Serous Cystadenocarcinoma ,CMS
+FNatPred,0.706349206,0.378571429,Ovarian Serous Cystadenocarcinoma ,CMS
+XGBoost,0.738,0.400359712,Stomach Adenocarcinoma ,CMS
+CatBoost,0.714285714,0.486125385,Stomach Adenocarcinoma ,CMS
+LightGBM ,0.5,0.100719424,Stomach Adenocarcinoma ,CMS
+Random Forest  ,0.678571429,0.421891059,Stomach Adenocarcinoma ,CMS
+FNatPred,0.706349206,0.378571429,Stomach Adenocarcinoma ,CMS

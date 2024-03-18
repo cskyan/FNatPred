@@ -1,0 +1,16 @@
+Model,auroc,aupr,diseaseType,datasetName
+XGBoost,0.888888889,0.883040936,Kidney Chromophobe ,BCM
+CatBoost,0.95,0.9,Kidney Chromophobe ,BCM
+LightGBM ,0.888888889,0.883040936,Kidney Chromophobe ,BCM
+Random Forest ,0.894444444,0.842755036,Kidney Chromophobe ,BCM
+FNatPred,0.9,0.833333333,Kidney Chromophobe ,BCM
+XGBoost,0.607142857,0.53015873,Kidney Renal Clear Cell Carcinoma ,BCM
+CatBoost,0.526785714,0.480952381,Kidney Renal Clear Cell Carcinoma ,BCM
+LightGBM ,0.455357143,0.447619048,Kidney Renal Clear Cell Carcinoma ,BCM
+Random Forest ,0.464285714,0.450340136,Kidney Renal Clear Cell Carcinoma ,BCM
+FNatPred,0.5,0.5,Kidney Renal Clear Cell Carcinoma ,BCM
+XGBoost,0.854545455,0.7025,Liver Hepatocellular Carcinoma ,BCM
+CatBoost,0.854545455,0.7025,Liver Hepatocellular Carcinoma ,BCM
+LightGBM ,0.5,0.3125,Liver Hepatocellular Carcinoma ,BCM
+Random Forest ,0.7,0.5875,Liver Hepatocellular Carcinoma ,BCM
+FNatPred,1,1,Liver Hepatocellular Carcinoma ,BCM

@@ -1,0 +1,31 @@
+Model,auroc,aupr,diseaseType
+XGBoost,0.575396825,0.647049689,Colon Adenocarcinoma 
+CatBoost,0.5,0.608695652,Colon Adenocarcinoma 
+LightGBM,0.630952381,0.678816607,Colon Adenocarcinoma 
+Random Forest ,0.468253968,0.594081111,Colon Adenocarcinoma 
+FNatPred,0.557142857,0.613095238,Colon Adenocarcinoma 
+XGBoost,0.53125,0.761924342,Kidney Renal Clear Cell Carcinoma 
+CatBoost,0.5,0.75,Kidney Renal Clear Cell Carcinoma 
+LightGBM,0.510416667,0.753926918,Kidney Renal Clear Cell Carcinoma 
+Random Forest ,0.557291667,0.772146359,Kidney Renal Clear Cell Carcinoma 
+FNatPred,0.572916667,0.778503788,Kidney Renal Clear Cell Carcinoma 
+XGBoost,0.5,0.898734177,Lung Adenocarcinoma 
+CatBoost,0.5,0.898734177,Lung Adenocarcinoma 
+LightGBM,0.5,0.898734177,Lung Adenocarcinoma 
+Random Forest ,0.5,0.898734177,Lung Adenocarcinoma 
+FNatPred,0.5,0.9,Lung Adenocarcinoma 
+XGBoost,0.3,0.433333333,Rectum Adenocarcinoma 
+CatBoost,0.3,0.45,Rectum Adenocarcinoma 
+LightGBM,0.4,0.46,Rectum Adenocarcinoma 
+Random Forest ,0.5,0.5,Rectum Adenocarcinoma 
+FNatPred,0.833333333,0.666666667,Rectum Adenocarcinoma 
+XGBoost,0.701449275,0.723069752,Stomach Adenocarcinoma 
+CatBoost,0.646376812,0.686583609,Stomach Adenocarcinoma 
+LightGBM,0.569565217,0.641172329,Stomach Adenocarcinoma 
+Random Forest ,0.624637681,0.673384967,Stomach Adenocarcinoma 
+FNatPred,0.702380952,0.746288799,Stomach Adenocarcinoma 
+XGBoost,0.518055556,0.832774585,Thyroid Carcinoma 
+CatBoost,0.5,0.827586207,Thyroid Carcinoma 
+LightGBM,0.5,0.827586207,Thyroid Carcinoma 
+Random Forest ,0.559722222,0.84499293,Thyroid Carcinoma 
+FNatPred,0.597222222,0.848232323,Thyroid Carcinoma 

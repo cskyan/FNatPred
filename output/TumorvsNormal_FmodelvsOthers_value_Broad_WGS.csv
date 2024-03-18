@@ -1,6 +1,0 @@
-Model,auroc,aupr,diseaseType,datasetName
-XGBoost,0.5666666666666667,0.41666666666666663,Lung Squamous Cell Carcinoma ,Broad_WGS
-CatBoost,0.5833333333333334,0.47916666666666663,Lung Squamous Cell Carcinoma ,Broad_WGS
-LightGBM[1],0.5333333333333333,0.3958333333333333,Lung Squamous Cell Carcinoma ,Broad_WGS
-Random Forest[2],0.43333333333333335,0.3541666666666667,Lung Squamous Cell Carcinoma ,Broad_WGS
-Fmodel,0.5666666666666667,0.41666666666666663,Lung Squamous Cell Carcinoma ,Broad_WGS

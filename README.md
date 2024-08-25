@@ -49,7 +49,7 @@ To train FNatPred, two files are required as input including fungal features (e.
    | Sample_n |  1      |    0    |
    
 # Classfication
-Then you can run the```. py``` files under each task
+Then you can run the ```pretrained_finetuned.py``` or ```non-fine.py``` files to obtain the results of five-fold cross-validation.
 # Contact
 All problems please contact   
 Dongmei He  Email：hedongmei@hainanu.edu.cn  
